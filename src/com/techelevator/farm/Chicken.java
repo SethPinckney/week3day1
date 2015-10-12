@@ -9,5 +9,9 @@ public class Chicken implements Animal {
 	public String getSound() {
 		return "Bwak, bwak";
 	}
+	
+	public void layEgg() {
+		System.out.println("Chicken laid an egg!");
+	}
 
 }
